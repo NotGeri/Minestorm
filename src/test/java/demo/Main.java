@@ -6,17 +6,17 @@ import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.format.Style;
 import net.kyori.adventure.text.format.TextColor;
 import net.kyori.adventure.text.format.TextDecoration;
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.command.CommandManager;
-import net.minestom.server.event.server.ServerListPingEvent;
-import net.minestom.server.extras.lan.OpenToLAN;
-import net.minestom.server.extras.lan.OpenToLANConfig;
-import net.minestom.server.extras.optifine.OptifineSupport;
-import net.minestom.server.instance.block.BlockManager;
-import net.minestom.server.instance.block.rule.vanilla.RedstonePlacementRule;
-import net.minestom.server.ping.ResponseData;
-import net.minestom.server.utils.identity.NamedAndIdentified;
-import net.minestom.server.utils.time.TimeUnit;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.command.CommandManager;
+import net.minestorm.server.event.server.ServerListPingEvent;
+import net.minestorm.server.extras.lan.OpenToLAN;
+import net.minestorm.server.extras.lan.OpenToLANConfig;
+import net.minestorm.server.extras.optifine.OptifineSupport;
+import net.minestorm.server.instance.block.BlockManager;
+import net.minestorm.server.instance.block.rule.vanilla.RedstonePlacementRule;
+import net.minestorm.server.ping.ResponseData;
+import net.minestorm.server.utils.identity.NamedAndIdentified;
+import net.minestorm.server.utils.time.TimeUnit;
 
 import java.time.Duration;
 

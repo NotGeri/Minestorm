@@ -1,10 +1,10 @@
 package demo.generator;
 
-import net.minestom.server.coordinate.Point;
-import net.minestom.server.coordinate.Vec;
-import net.minestom.server.instance.Chunk;
-import net.minestom.server.instance.batch.ChunkBatch;
-import net.minestom.server.instance.block.Block;
+import net.minestorm.server.coordinate.Point;
+import net.minestorm.server.coordinate.Vec;
+import net.minestorm.server.instance.Chunk;
+import net.minestorm.server.instance.batch.ChunkBatch;
+import net.minestorm.server.instance.block.Block;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,6 @@
 package improveextensions;
 
-import net.minestom.server.Bootstrap;
+import net.minestorm.server.Bootstrap;
 
 // To launch with VM arguments:
 

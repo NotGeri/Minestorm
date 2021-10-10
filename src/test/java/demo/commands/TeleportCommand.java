@@ -1,15 +1,14 @@
 package demo.commands;
 
 import net.kyori.adventure.text.Component;
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.command.CommandSender;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.CommandContext;
-import net.minestom.server.command.builder.arguments.ArgumentType;
-import net.minestom.server.coordinate.Pos;
-import net.minestom.server.coordinate.Vec;
-import net.minestom.server.entity.Player;
-import net.minestom.server.utils.location.RelativeVec;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.command.CommandSender;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.CommandContext;
+import net.minestorm.server.command.builder.arguments.ArgumentType;
+import net.minestorm.server.coordinate.Pos;
+import net.minestorm.server.entity.Player;
+import net.minestorm.server.utils.location.RelativeVec;
 
 public class TeleportCommand extends Command {
 

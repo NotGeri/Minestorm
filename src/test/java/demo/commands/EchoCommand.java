@@ -4,10 +4,10 @@ import net.kyori.adventure.audience.MessageType;
 import net.kyori.adventure.identity.Identity;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.event.ClickEvent;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.arguments.ArgumentType;
-import net.minestom.server.command.builder.arguments.minecraft.ArgumentComponent;
-import net.minestom.server.command.builder.arguments.minecraft.ArgumentUUID;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.arguments.ArgumentType;
+import net.minestorm.server.command.builder.arguments.minecraft.ArgumentComponent;
+import net.minestorm.server.command.builder.arguments.minecraft.ArgumentUUID;
 
 public class EchoCommand extends Command {
     public EchoCommand() {

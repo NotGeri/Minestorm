@@ -1,6 +1,6 @@
 package testextension;
 
-import net.minestom.server.Bootstrap;
+import net.minestorm.server.Bootstrap;
 
 public class TestDemoLauncher {
 

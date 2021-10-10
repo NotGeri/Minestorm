@@ -1,14 +1,14 @@
 package demo;
 
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.entity.Player;
-import net.minestom.server.event.GlobalEventHandler;
-import net.minestom.server.event.player.PlayerLoginEvent;
-import net.minestom.server.instance.*;
-import net.minestom.server.instance.batch.ChunkBatch;
-import net.minestom.server.instance.block.Block;
-import net.minestom.server.coordinate.Pos;
-import net.minestom.server.world.biomes.Biome;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.entity.Player;
+import net.minestorm.server.event.GlobalEventHandler;
+import net.minestorm.server.event.player.PlayerLoginEvent;
+import net.minestorm.server.instance.*;
+import net.minestorm.server.instance.batch.ChunkBatch;
+import net.minestorm.server.instance.block.Block;
+import net.minestorm.server.coordinate.Pos;
+import net.minestorm.server.world.biomes.Biome;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;

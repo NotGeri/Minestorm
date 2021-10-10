@@ -1,10 +1,10 @@
 package demo.commands;
 
 import net.kyori.adventure.text.Component;
-import net.minestom.server.command.CommandSender;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.CommandContext;
-import net.minestom.server.command.builder.arguments.ArgumentType;
+import net.minestorm.server.command.CommandSender;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.CommandContext;
+import net.minestorm.server.command.builder.arguments.ArgumentType;
 
 public class TestCommand extends Command {
 

@@ -1,9 +1,9 @@
 package improveextensions;
 
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.extensions.Extension;
-import net.minestom.server.instance.InstanceContainer;
-import net.minestom.server.world.DimensionType;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.extensions.Extension;
+import net.minestorm.server.instance.InstanceContainer;
+import net.minestorm.server.world.DimensionType;
 import org.junit.jupiter.api.Assertions;
 import org.opentest4j.AssertionFailedError;
 

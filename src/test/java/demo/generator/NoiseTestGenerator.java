@@ -2,14 +2,14 @@ package demo.generator;
 
 import de.articdive.jnoise.JNoise;
 import de.articdive.jnoise.interpolation.InterpolationType;
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.coordinate.Vec;
-import net.minestom.server.instance.Chunk;
-import net.minestom.server.instance.ChunkGenerator;
-import net.minestom.server.instance.ChunkPopulator;
-import net.minestom.server.instance.batch.ChunkBatch;
-import net.minestom.server.instance.block.Block;
-import net.minestom.server.world.biomes.Biome;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.coordinate.Vec;
+import net.minestorm.server.instance.Chunk;
+import net.minestorm.server.instance.ChunkGenerator;
+import net.minestorm.server.instance.ChunkPopulator;
+import net.minestorm.server.instance.batch.ChunkBatch;
+import net.minestorm.server.instance.block.Block;
+import net.minestorm.server.world.biomes.Biome;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;

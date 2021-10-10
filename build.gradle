@@ -7,7 +7,7 @@ plugins {
     id 'checkstyle'
 }
 
-group 'net.minestom.server'
+group 'net.minestorm.server'
 version '1.0'
 
 sourceCompatibility = 11
@@ -57,7 +57,7 @@ allprojects {
 
     checkstyle {
         toolVersion "8.42"
-        configFile file("${projectDir}/minestom_checks.xml")
+        configFile file("${projectDir}/minestorm_checks.xml")
     }
 }
 
@@ -79,7 +79,7 @@ sourceSets {
 }
 
 java {
-    // Minestom uses LWJGL libs as optional dependency if interfacing with a GPU is asked
+    // Minestorm uses LWJGL libs as optional dependency if interfacing with a GPU is asked
     registerFeature("lwjgl") {
         usingSourceSet(sourceSets.lwjgl)
         withJavadocJar()
@@ -154,8 +154,8 @@ dependencies {
         }
     }
 
-    api "com.github.Minestom:DependencyGetter:v1.0.1"
-    implementation 'com.github.Minestom:MinestomDataGenerator:7636d5d473'
+    api "com.github.Minestorm:DependencyGetter:v1.0.1"
+    implementation 'com.github.Minestorm:MinestormDataGenerator:7636d5d473'
 
     // Adventure, for user-interface
     api "net.kyori:adventure-api:$adventureVersion"

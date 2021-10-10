@@ -1,10 +1,11 @@
 package demo.commands;
 
-import net.minestom.server.command.CommandSender;
+import net.minestorm.server.command.CommandSender;
+import net.minestorm.server.command.builder.SimpleCommand;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-public class LegacyCommand extends net.minestom.server.command.builder.SimpleCommand {
+public class LegacyCommand extends SimpleCommand {
     public LegacyCommand() {
         super("test", "alias");
     }

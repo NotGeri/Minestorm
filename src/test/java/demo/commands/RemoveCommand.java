@@ -1,13 +1,13 @@
 package demo.commands;
 
-import net.minestom.server.command.CommandSender;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.CommandContext;
-import net.minestom.server.command.builder.arguments.ArgumentType;
-import net.minestom.server.command.builder.arguments.minecraft.ArgumentEntity;
-import net.minestom.server.command.builder.condition.Conditions;
-import net.minestom.server.entity.Entity;
-import net.minestom.server.utils.entity.EntityFinder;
+import net.minestorm.server.command.CommandSender;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.CommandContext;
+import net.minestorm.server.command.builder.arguments.ArgumentType;
+import net.minestorm.server.command.builder.arguments.minecraft.ArgumentEntity;
+import net.minestorm.server.command.builder.condition.Conditions;
+import net.minestorm.server.entity.Entity;
+import net.minestorm.server.utils.entity.EntityFinder;
 
 public class RemoveCommand extends Command {
 

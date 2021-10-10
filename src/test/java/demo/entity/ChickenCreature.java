@@ -1,10 +1,10 @@
 package demo.entity;
 
 import com.google.common.collect.ImmutableList;
-import net.minestom.server.attribute.Attribute;
-import net.minestom.server.entity.EntityCreature;
-import net.minestom.server.entity.EntityType;
-import net.minestom.server.entity.ai.goal.RandomStrollGoal;
+import net.minestorm.server.attribute.Attribute;
+import net.minestorm.server.entity.EntityCreature;
+import net.minestorm.server.entity.EntityType;
+import net.minestorm.server.entity.ai.goal.RandomStrollGoal;
 
 public class ChickenCreature extends EntityCreature {
 

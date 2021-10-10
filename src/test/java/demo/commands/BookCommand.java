@@ -3,11 +3,11 @@ package demo.commands;
 import net.kyori.adventure.inventory.Book;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
-import net.minestom.server.command.CommandSender;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.CommandContext;
-import net.minestom.server.command.builder.condition.Conditions;
-import net.minestom.server.entity.Player;
+import net.minestorm.server.command.CommandSender;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.CommandContext;
+import net.minestorm.server.command.builder.condition.Conditions;
+import net.minestorm.server.entity.Player;
 
 public class BookCommand extends Command {
     public BookCommand() {

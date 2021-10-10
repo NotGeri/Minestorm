@@ -4,13 +4,13 @@ plugins {
     // Used to download our data
 }
 
-group 'net.minestom.server'
+group 'net.minestorm.server'
 version '1.0'
 
 sourceCompatibility = 1.11
 
 application {
-    mainClass.set("net.minestom.codegen.Generators")
+    mainClass.set("net.minestorm.codegen.Generators")
 }
 
 repositories {
@@ -25,7 +25,7 @@ dependencies {
     // SLF4J is the base logger for most libraries, therefore we can hook it into log4j2.
     implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.14.1'
     // Contains the json files
-    implementation 'com.github.Minestom:MinestomDataGenerator:7636d5d473'
+    implementation 'com.github.Minestorm:MinestormDataGenerator:7636d5d473'
 }
 
 

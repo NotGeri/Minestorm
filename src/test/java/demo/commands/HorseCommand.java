@@ -1,16 +1,16 @@
 package demo.commands;
 
 import net.kyori.adventure.text.Component;
-import net.minestom.server.command.CommandSender;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.CommandContext;
-import net.minestom.server.command.builder.arguments.ArgumentType;
-import net.minestom.server.command.builder.condition.Conditions;
-import net.minestom.server.command.builder.exception.ArgumentSyntaxException;
-import net.minestom.server.entity.EntityCreature;
-import net.minestom.server.entity.EntityType;
-import net.minestom.server.entity.Player;
-import net.minestom.server.entity.metadata.animal.HorseMeta;
+import net.minestorm.server.command.CommandSender;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.CommandContext;
+import net.minestorm.server.command.builder.arguments.ArgumentType;
+import net.minestorm.server.command.builder.condition.Conditions;
+import net.minestorm.server.command.builder.exception.ArgumentSyntaxException;
+import net.minestorm.server.entity.EntityCreature;
+import net.minestorm.server.entity.EntityType;
+import net.minestorm.server.entity.Player;
+import net.minestorm.server.entity.metadata.animal.HorseMeta;
 
 import java.util.Locale;
 import java.util.stream.Collectors;

@@ -1,7 +1,7 @@
 package improveextensions.missingmodifiers;
 
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.extensions.Extension;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.extensions.Extension;
 import org.junit.jupiter.api.Assertions;
 import org.opentest4j.AssertionFailedError;
 

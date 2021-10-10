@@ -1,6 +1,6 @@
 package testextension;
 
-import net.minestom.server.extensions.Extension;
+import net.minestorm.server.extensions.Extension;
 
 public class TestExtension extends Extension {
     @Override

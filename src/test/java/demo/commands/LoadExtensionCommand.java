@@ -1,14 +1,14 @@
 package demo.commands;
 
 import net.kyori.adventure.text.Component;
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.command.CommandSender;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.CommandContext;
-import net.minestom.server.command.builder.arguments.ArgumentString;
-import net.minestom.server.command.builder.arguments.ArgumentType;
-import net.minestom.server.command.builder.exception.ArgumentSyntaxException;
-import net.minestom.server.extensions.ExtensionManager;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.command.CommandSender;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.CommandContext;
+import net.minestorm.server.command.builder.arguments.ArgumentString;
+import net.minestorm.server.command.builder.arguments.ArgumentType;
+import net.minestorm.server.command.builder.exception.ArgumentSyntaxException;
+import net.minestorm.server.extensions.ExtensionManager;
 
 import java.io.IOException;
 import java.nio.file.Path;

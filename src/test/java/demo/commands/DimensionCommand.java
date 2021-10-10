@@ -1,10 +1,10 @@
 package demo.commands;
 
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.condition.Conditions;
-import net.minestom.server.entity.Player;
-import net.minestom.server.instance.Instance;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.condition.Conditions;
+import net.minestorm.server.entity.Player;
+import net.minestorm.server.instance.Instance;
 
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;

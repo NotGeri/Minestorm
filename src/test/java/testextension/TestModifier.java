@@ -1,6 +1,6 @@
 package testextension;
 
-import net.minestom.server.extras.selfmodification.CodeModifier;
+import net.minestorm.server.extras.selfmodification.CodeModifier;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 

@@ -1,14 +1,12 @@
 package demo.commands;
 
-import net.minestom.server.command.CommandSender;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.CommandContext;
-import net.minestom.server.entity.Entity;
-import net.minestom.server.entity.Player;
+import net.minestorm.server.command.CommandSender;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.CommandContext;
+import net.minestorm.server.entity.Entity;
+import net.minestorm.server.entity.Player;
 
 import java.util.Collection;
-
-import static net.minestom.server.command.builder.arguments.ArgumentType.*;
 
 public class FindCommand extends Command {
     public FindCommand() {

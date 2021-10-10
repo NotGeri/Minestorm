@@ -1,17 +1,17 @@
 package demo.commands;
 
 import net.kyori.adventure.text.Component;
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.command.CommandSender;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.command.builder.CommandContext;
-import net.minestom.server.command.builder.arguments.ArgumentType;
-import net.minestom.server.command.builder.arguments.minecraft.registry.ArgumentPotionEffect;
-import net.minestom.server.command.builder.arguments.number.ArgumentInteger;
-import net.minestom.server.command.builder.condition.Conditions;
-import net.minestom.server.entity.Player;
-import net.minestom.server.potion.Potion;
-import net.minestom.server.potion.PotionEffect;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.command.CommandSender;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.command.builder.CommandContext;
+import net.minestorm.server.command.builder.arguments.ArgumentType;
+import net.minestorm.server.command.builder.arguments.minecraft.registry.ArgumentPotionEffect;
+import net.minestorm.server.command.builder.arguments.number.ArgumentInteger;
+import net.minestorm.server.command.builder.condition.Conditions;
+import net.minestorm.server.entity.Player;
+import net.minestorm.server.potion.Potion;
+import net.minestorm.server.potion.PotionEffect;
 
 public class PotionCommand extends Command {
 

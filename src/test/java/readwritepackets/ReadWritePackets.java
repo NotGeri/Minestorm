@@ -1,16 +1,16 @@
 package readwritepackets;
 
 import com.google.common.reflect.ClassPath;
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.entity.EquipmentSlot;
-import net.minestom.server.item.ItemStack;
-import net.minestom.server.network.packet.client.ClientPacket;
-import net.minestom.server.network.packet.server.ServerPacket;
-import net.minestom.server.network.packet.server.play.EntityEquipmentPacket;
-import net.minestom.server.utils.binary.BinaryReader;
-import net.minestom.server.utils.binary.BinaryWriter;
-import net.minestom.server.utils.binary.Readable;
-import net.minestom.server.utils.binary.Writeable;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.entity.EquipmentSlot;
+import net.minestorm.server.item.ItemStack;
+import net.minestorm.server.network.packet.client.ClientPacket;
+import net.minestorm.server.network.packet.server.ServerPacket;
+import net.minestorm.server.network.packet.server.play.EntityEquipmentPacket;
+import net.minestorm.server.utils.binary.BinaryReader;
+import net.minestorm.server.utils.binary.BinaryWriter;
+import net.minestorm.server.utils.binary.Readable;
+import net.minestorm.server.utils.binary.Writeable;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;

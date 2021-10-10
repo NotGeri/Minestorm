@@ -1,8 +1,8 @@
 package improveextensions.unloadextensiononstop;
 
-import net.minestom.server.MinecraftServer;
-import net.minestom.server.extensions.Extension;
-import net.minestom.server.utils.time.TimeUnit;
+import net.minestorm.server.MinecraftServer;
+import net.minestorm.server.extensions.Extension;
+import net.minestorm.server.utils.time.TimeUnit;
 import org.junit.jupiter.api.Assertions;
 
 public class UnloadExtensionOnStop extends Extension {

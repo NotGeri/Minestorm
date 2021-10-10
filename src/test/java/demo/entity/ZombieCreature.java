@@ -1,9 +1,9 @@
 package demo.entity;
 
-import net.minestom.server.entity.EntityCreature;
-import net.minestom.server.entity.EntityType;
-import net.minestom.server.entity.ai.EntityAIGroupBuilder;
-import net.minestom.server.entity.ai.goal.RandomLookAroundGoal;
+import net.minestorm.server.entity.EntityCreature;
+import net.minestorm.server.entity.EntityType;
+import net.minestorm.server.entity.ai.EntityAIGroupBuilder;
+import net.minestorm.server.entity.ai.goal.RandomLookAroundGoal;
 
 public class ZombieCreature extends EntityCreature {
 

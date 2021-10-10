@@ -1,6 +1,6 @@
 package testextension;
 
-import net.minestom.server.Bootstrap;
+import net.minestorm.server.Bootstrap;
 
 // To launch with VM arguments:
 // -Dminestom.extension.indevfolder.classes=build/classes/java/test/ -Dminestom.extension.indevfolder.resources=build/resources/test/

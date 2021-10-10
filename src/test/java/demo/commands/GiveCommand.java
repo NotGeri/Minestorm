@@ -1,20 +1,19 @@
 package demo.commands;
 
 import net.kyori.adventure.text.Component;
-import net.minestom.server.command.builder.Command;
-import net.minestom.server.entity.Entity;
-import net.minestom.server.entity.Player;
-import net.minestom.server.inventory.PlayerInventory;
-import net.minestom.server.inventory.TransactionOption;
-import net.minestom.server.item.ItemStack;
-import net.minestom.server.utils.entity.EntityFinder;
+import net.minestorm.server.command.builder.Command;
+import net.minestorm.server.entity.Entity;
+import net.minestorm.server.entity.Player;
+import net.minestorm.server.inventory.PlayerInventory;
+import net.minestorm.server.inventory.TransactionOption;
+import net.minestorm.server.item.ItemStack;
+import net.minestorm.server.utils.entity.EntityFinder;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static net.minestom.server.command.builder.arguments.ArgumentType.Integer;
-import static net.minestom.server.command.builder.arguments.ArgumentType.*;
+import static net.minestorm.server.command.builder.arguments.ArgumentType.Integer;
 
 public class GiveCommand extends Command {
     public GiveCommand() {

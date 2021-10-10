@@ -1,6 +1,6 @@
 package demo;
 
-import net.minestom.server.Bootstrap;
+import net.minestorm.server.Bootstrap;
 
 public class Start {
 

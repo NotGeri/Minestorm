@@ -1,6 +1,6 @@
 package misc;
 
-import net.minestom.server.utils.NamespaceID;
+import net.minestorm.server.utils.NamespaceID;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
